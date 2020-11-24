@@ -8,7 +8,7 @@ module.exports = (code) => {
   const clientId = process.env.SLACK_CLIENT_ID;
   const clientSecret = process.env.SLACK_CLIENT_SECRET
 
-  const oauthURL = 'https://slack.com/api/oauth.access?' +
+  const oauthURL = 'https://slack.com/api/oauth.v2.access' +
     'client_id=' + clientId + '&' +
     'client_secret=' + clientSecret + '&' +
     'code=' + code;
