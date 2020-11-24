@@ -11,7 +11,7 @@
 #
 # Happy Coding!
 
-service: foobar-slack-get-a-cat # NOTE: update this with your service name
+service: ls_support # NOTE: update this with your service name
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
@@ -21,8 +21,8 @@ provider:
   name: aws
   runtime: nodejs4.3
   environment:
-    SLACK_CLIENT_ID: 'XXXXXXXXXXX'
-    SLACK_CLIENT_SECRET: 'XXXXXXXXXXXX'
+    SLACK_CLIENT_ID: '1437166485986.1492208003879'
+    SLACK_CLIENT_SECRET: '7c04bc61106349b4f9ea0afcd24303c7'
 
 # you can overwrite defaults here
 #  stage: dev
